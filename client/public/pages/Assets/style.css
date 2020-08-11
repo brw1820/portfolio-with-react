@@ -1,0 +1,155 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(background.jpg); 
+    padding:20px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  .works  {
+    color: lightblue;
+  }
+  .nav {
+      background-color: lightseagreen;
+      padding: 5px 10px;
+      margin-left: 10px;
+  }
+/* .dropdown-menu  {
+    margin-right: auto;
+} */
+  .navbar-toggler-icon  {
+      
+      margin-left: center;
+  }
+
+  .picture{
+    width:50%;
+  }
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  margin-top:80px;
+  padding: 30px;
+  width:60%;
+  background-color: whitesmoke;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#Portfolio {
+    padding-bottom:30px;
+    background-color: whitesmoke;
+}
+
+.footer1 {
+    background-color: grey;
+    text-align:center;
+    font-size: 5px;
+    border-top: 2px lightseagreen solid;
+    margin-top: 30px;
+    height: 45px;
+    padding-top: 10px;
+    bottom: 0;
+    width: 100%; 
+    position: absolute;
+}
+
+.picture  {
+  max-height: 175px;
+  max-width: 175px;
+  border-style: double;
+}
+
+#Contact  {
+  height: fit-content;
+  width:45%;
+  align-self: auto;
+  
+}
+img {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+ .col-sm-12 {
+    position:center;
+}
+
+@media only screen and (max-width: 500px) {
+  .container  {
+    margin: 5px;
+    width:50%;
+  }
+}
+
+.bg-light {
+  background-color: lightblue;
+}
+
+#nav-item {
+  margin:35px;
+}
+
+.picture{
+align:left;
+}
+
+.captured-image {
+  width: 100%;
+}
+
+.bottomNav  {
+  background-color: grey;
+  text-align: center;
+  font-size: 5px;
+  border-top: 2px lightseagreen solid;
+  margin-top: 30px;
+  height: 45px;
+  padding-top: 10px;
+  bottom: 0;
+  width: 100%;
+}
