@@ -2,12 +2,12 @@ import React, {useEffect} from 'react';
 // import SiteContainer from "./components/SiteContainer";
 import axios from "axios";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import Home from "./pages/Home.jsx.js.js";
-import Contact from './pages/Contact.jsx.js.js';
-import Resume from './pages/Resume.jsx.js.js';
-import "./pages/Assets/style.css";
-import Nav from "./components/Nav.jsx.js.js";
-import Projects from "./pages/Projects.jsx.js.js"
+import Home from "./containers/Home";
+import Contact from './containers/Contact';
+import Resume from './containers/Resume';
+import "./containers/Assets/style.css";
+import Nav from "./components/Nav";
+import Projects from "./containers/Projects";
 
 // const App = () => <SiteContainer />;
 

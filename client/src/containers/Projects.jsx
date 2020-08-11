@@ -15,7 +15,7 @@ class Projects extends Component {
                 id={project.id}
                 key={project.id}
                 name={project.name}
-                image={project.image}
+                src={project.src}
                 repo={project.repo}
                 link={project.link}
               />
