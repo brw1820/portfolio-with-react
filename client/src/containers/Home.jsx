@@ -1,5 +1,5 @@
 import React from 'react';
-import picture from "./Assets/linkedinpicture.png";
+import picture from "../Images/linkedinpicture.png";
 
 const Home = () => {
     return (

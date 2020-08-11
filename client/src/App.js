@@ -5,7 +5,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Home from "./containers/Home";
 import Contact from './containers/Contact';
 import Resume from './containers/Resume';
-import "./containers/Assets/style.css";
+import "./Images/style.css";
 import Nav from "./components/Nav";
 import Projects from "./containers/Projects";
 
